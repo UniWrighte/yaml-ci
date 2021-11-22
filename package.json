@@ -1,7 +1,7 @@
 {
   "name": "yaml-ci",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.1.0",
+  "description": "GitOps pipeline tool to add image tags (or whatever else) from CI into a repo.",
   "main": "tag.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,23 @@
   },
   "author": "David J Kamer",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UniWrighte/yaml-ci.git"
+  },
+  "keywords": [
+    "yaml",
+    "GitOps",
+    "argocd",
+    "tag",
+    "replace",
+    "version",
+    "versioning",
+    "ci",
+    "cd",
+    "ci/cd"
+  ],
+  "homepage": "https://github.com/UniWrighte/yaml-ci",
   "dependencies": {
     "yaml": "^1.10.2"
   }

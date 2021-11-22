@@ -1,5 +1,11 @@
 # yaml-ci
 
+## Install
+
+    npm i yaml-ci
+
+## Usage
+
 This app lets you pass yaml via a Unix pipe (stdin) and specify a path and tag in a yaml file to output the new tag version. Example with git clone:
 
     cat db.yaml | node tag stringData.boo 123 > new.yaml

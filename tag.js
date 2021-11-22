@@ -1,6 +1,7 @@
-// TODO - take input like: node tag path.to.tag.env tag_from_ci
+#! /usr/bin/env node
 // example usage: cat db.yaml | node tag stringData.boo 123 > new.yaml
 const yaml = require('yaml')
+
 const path = process.argv[2]
 const tag = process.argv[3]
 const stdin = process.openStdin()
@@ -12,7 +13,6 @@ stdin.on('data', function (chunk) {
 })
 
 stdin.on('end', function () {
-  // console.log('DATA:\n' + data + '\nEND DATA')
   const parsed = yaml.parse(data)
   const stops = path.split('.')
   const end = stops.pop()
