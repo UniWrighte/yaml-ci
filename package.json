@@ -1,0 +1,14 @@
+{
+  "name": "yaml-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David J Kamer",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^1.10.2"
+  }
+}
